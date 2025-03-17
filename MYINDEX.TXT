@@ -87,749 +87,959 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <!-- Page Content-->
-    <div class="container-fluid p-0">
-
-      <!-- 1) About -->
-      <section class="resume-section about-hero" id="about">
-        <div class="resume-section-content about-container">
-          <div class="row align-items-center">
-            <!-- Left column: Name & Headline -->
-            <div class="col-12 col-md-6 about-intro">
-              <h1 class="display-3 fw-bold mb-0">
-                RANJEET <span class="text-primary">KULKARNI</span>
-              </h1>
-              <p class="lead my-3">
-                I'm a B.Tech in Information Technology student at IIIT Allahabad with a deep passion for AI/ML and software development. I specialize in building scalable AI pipelines and crafting innovative web solutions. I also have a keen interest in data structures, algorithms, and competitive coding—holding a 3-star rating on CodeChef and a Pupil rating on Codeforces. With a current CGPA of 8.66, I continuously strive for excellence in every project I undertake.
-              </p>
-            </div>
-            <!-- Right column: Contact & Social Icons -->
-            <div class="col-12 col-md-6 about-contact text-md-end">
-              <div class="subheading mb-3">
-                <a href="mailto:ranjeetkulkarni2505@gmail.com" class="me-3">
-                  <i class="fas fa-envelope"></i> ranjeetkulkarni2505@gmail.com
-                </a>
-                <a href="mailto:iit2023064@iiita.ac.in" class="me-3">
-                  <i class="fas fa-envelope"></i> iit2023064@iiita.ac.in
-                </a>
-                <a href="tel:+919673839208">
-                  <i class="fas fa-phone-alt"></i> +91 9673839208
-                </a>
-              </div>
-              <div class="social-icons">
-                <!-- GitHub (Font Awesome) -->
-                <a class="social-icon" href="https://github.com/ranjeetkulkarni" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              
-                <!-- LinkedIn (Font Awesome) -->
-                <a class="social-icon" href="https://linkedin.com/in/ranjeet-kulkarni-b2361627a/" target="_blank">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              
-                <!-- CodeChef (Image) -->
-                <a class="social-icon" href="https://www.codechef.com/users/YOUR_CODECHEF_USERNAME" target="_blank">
-                  <img src="assets/images/codechef.jpeg" alt="CodeChef">
-                </a>
-              
-                <!-- Codeforces (Image) -->
-                <a class="social-icon" href="https://codeforces.com/profile/the__mentalist" target="_blank">
-                  <img src="assets/images/codeforces.png" alt="Codeforces">
-                </a>
-              
-                <!-- LeetCode (Image) -->
-                <a class="social-icon" href="https://leetcode.com/u/r25_1725/" target="_blank">
-                  <img src="assets/images/leetcode.png" alt="LeetCode">
-                </a>
-              </div>
-              
-              
-            </div>
-          </div>
+<!-- Page Content-->
+<!-- About Section (Basic Version) -->
+<section class="resume-section about-hero" id="about">
+  <div class="resume-section-content about-container">
+    <div class="row align-items-center">
+      <!-- Left column: Name & Headline -->
+      <div class="col-12 col-md-6 about-intro">
+        <h1 class="display-3 fw-bold mb-0">
+          RANJEET <span class="text-primary">KULKARNI</span>
+        </h1>
+        <p class="lead my-3">
+          I'm a B.Tech in Information Technology student at IIIT Allahabad with a deep passion
+          for AI/ML and software development. I specialize in building scalable AI pipelines
+          and crafting innovative web solutions. I also have a keen interest in data structures,
+          algorithms, and competitive coding—holding a 3-star rating on CodeChef and a Pupil
+          rating on Codeforces. With a current CGPA of 8.66, I continuously strive for
+          excellence in every project I undertake.
+        </p>
+        <!-- Resume Download Link -->
+        <p>
+          <a href="assets/Resume.pdf" class="btn btn-primary" target="_blank">
+            <i class="fas fa-file-download"></i> Download My Resume
+          </a>
+        </p>
+      </div>
+      
+      <!-- Right column: Contact & Social Icons -->
+      <div class="col-12 col-md-6 about-contact text-md-end">
+        <div class="subheading mb-3">
+          <a href="mailto:ranjeetkulkarni2505@gmail.com" class="me-3">
+            <i class="fas fa-envelope"></i> ranjeetkulkarni2505@gmail.com
+          </a>
+          <a href="mailto:iit2023064@iiita.ac.in" class="me-3">
+            <i class="fas fa-envelope"></i> iit2023064@iiita.ac.in
+          </a>
+          <a href="tel:+919673839208">
+            <i class="fas fa-phone-alt"></i> +91 9673839208
+          </a>
         </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- 2) Education -->
-      <section class="resume-section" id="education">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Education</h2>
-          <div class="education-row">
-            <!-- 1st Education Card -->
-            <div class="education-card mb-5">
-              <div class="row align-items-center">
-                <!-- Left Column: Content (50%) -->
-                <div class="col-md-6">
-                  <h3 class="mb-0">IIIT Allahabad</h3>
-                  <div class="subheading mb-3">B.Tech. in Information Technology</div>
-                  <div>Prayagraj, UP</div>
-                  <p><strong>CGPA:</strong> 8.66 (till 4th Sem)</p>
-                  <p>
-                    Key Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming,
-                    Operating Systems, Computer Organization &amp; Architecture, Database Management
-                    Systems, Computer Networks, Probability &amp; Statistics, Linear Algebra, Discrete Mathematics.
-                  </p>
-                  <span class="text-primary">2023 - Present</span>
-                </div>
-                <!-- Right Column: Image (50%) -->
-                <div class="col-md-6 text-end">
-                  <img src="assets/img/institute1.jpg" alt="IIIT Allahabad Logo" class="institution-img" />
-                </div>
-              </div>
-            </div>
-
-            <!-- 2nd Education Card -->
-            <div class="education-card mb-5">
-              <div class="row align-items-center">
-                <!-- Left Column: Content (50%) -->
-                <div class="col-md-6">
-                  <h3 class="mb-0">Jnana Prabodhini Prashala</h3>
-                  <div class="subheading mb-3">Secondary Education, CBSE</div>
-                  <p>
-                    Achieved <strong>99.20%</strong> (CGPA: 10). Focused on foundational science and mathematics with a strong emphasis on problem-solving.
-                  </p>
-                  <span class="text-primary">Year of Passing: 20XX</span>
-                </div>
-                <!-- Right Column: Image (50%) -->
-                <div class="col-md-6 text-end">
-                  <img src="assets/img/institute2.jpg" alt="Jnana Prabodhini Logo" class="institution-img" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- 3) Technical Skills -->
-      <section class="resume-section" id="skills">
-        <div class="resume-section-content skill-container">
-          <h2 class="mb-5 display-4 text-uppercase fw-bold">Technical Skills</h2>
-          <div class="row">
-            <!-- Left Column: Tabs -->
-            <div class="col-lg-3 col-md-4 skill-tab-column">
-              <div class="skill-tabs flex-column">
-                <!-- Tab 1: AI/ML & Data Science -->
-                <button class="skill-tab active" data-target="tab-aiml">
-                  AI/ML &amp; Data Science
-                </button>
-                <!-- Tab 2: Web Development -->
-                <button class="skill-tab" data-target="tab-web">
-                  Web Development
-                </button>
-                <!-- Tab 3: Programming & CS Fundamentals -->
-                <button class="skill-tab" data-target="tab-programming">
-                  Programming &amp; CS Fundamentals
-                </button>
-                <!-- Tab 4: Tools & DevOps -->
-                <button class="skill-tab" data-target="tab-tools">
-                  Tools &amp; DevOps
-                </button>
-              </div>
-            </div>
-
-            <!-- Right Column: Tab Contents -->
-            <div class="col-lg-9 col-md-8 skill-content-column">
-
-              <!-- TAB 1: AI/ML & Data Science -->
-              <div id="tab-aiml" class="skill-content active">
-                <h4 class="mb-3 skill-heading">
-                  <span class="skill-icon">
-                    <i class="fas fa-brain"></i>
-                  </span>
-                  AI/ML &amp; Data Science
-                </h4>
-                <p>
-                  <strong>Core Concepts:</strong> Supervised/Unsupervised Learning, NLP,
-                  Neural Networks, Computer Vision, GANs, Generative AI, LLMs, Knowledge
-                  Graphs
-                </p>
-                <p>
-                  <strong>Frameworks &amp; Tools:</strong>
-                  <span class="skill-badge"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
-                  <span class="skill-badge"><i class="devicon-pytorch-original colored"></i> PyTorch</span>
-                  <span class="skill-badge"><i class="devicon-flask-original colored"></i> Flask</span>
-                  <span class="skill-badge"><i class="devicon-neo4j-plain colored"></i> Neo4j</span>
-                  <span class="skill-badge"><i class="fas fa-search"></i> FAISS</span>
-                  <span class="skill-badge"><i class="fas fa-comment"></i> RASA</span>
-                  <span class="skill-badge"><i class="fas fa-mobile-alt"></i> Twilio WhatsApp API</span>
-                </p>
-              </div>
-
-              <!-- TAB 2: Web Development -->
-              <div id="tab-web" class="skill-content">
-                <h4 class="mb-3 skill-heading">
-                  <span class="skill-icon">
-                    <i class="fas fa-laptop-code"></i>
-                  </span>
-                  Web Development
-                </h4>
-                <p>
-                  <strong>Frontend:</strong>
-                  <span class="skill-badge"><i class="devicon-react-original colored"></i> React.js</span>
-                  <span class="skill-badge"><i class="devicon-nextjs-original"></i> Next.js</span>
-                  <span class="skill-badge"><i class="devicon-html5-plain colored"></i> HTML5/CSS3</span>
-                </p>
-                <p>
-                  <strong>Backend:</strong>
-                  <span class="skill-badge"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
-                  <span class="skill-badge"><i class="devicon-express-original"></i> Express.js</span>
-                  <span class="skill-badge"><i class="devicon-flask-original colored"></i> Flask</span>
-                  <span class="skill-badge">REST APIs</span>
-                </p>
-              </div>
-
-              <!-- TAB 3: Programming & CS Fundamentals -->
-              <div id="tab-programming" class="skill-content">
-                <h4 class="mb-3 skill-heading">
-                  <span class="skill-icon">
-                    <i class="fas fa-cogs"></i>
-                  </span>
-                  Programming &amp; CS Fundamentals
-                </h4>
-                <p>
-                  <strong>Languages:</strong>
-                  <span class="skill-badge"><i class="devicon-java-plain colored"></i> Java</span>
-                  <span class="skill-badge"><i class="devicon-cplusplus-plain colored"></i> C++</span>
-                  <span class="skill-badge"><i class="devicon-python-plain colored"></i> Python</span>
-                  <span class="skill-badge"><i class="devicon-javascript-plain colored"></i> JavaScript (ES6+)</span>
-                  <span class="skill-badge"><i class="devicon-sqlite-plain colored"></i> SQL</span>
-                </p>
-                <p>
-                  <strong>Concepts:</strong>
-                  <span class="skill-badge"><i class="fas fa-code"></i> DSA</span>
-                  <span class="skill-badge"><i class="fas fa-trophy"></i> Competitive Programming</span>
-                </p>
-              </div>
-
-              <!-- TAB 4: Tools & DevOps -->
-              <div id="tab-tools" class="skill-content">
-                <h4 class="mb-3 skill-heading">
-                  <span class="skill-icon">
-                    <i class="fas fa-tools"></i>
-                  </span>
-                  Tools &amp; DevOps
-                </h4>
-                <p>
-                  <strong>Tools:</strong>
-                  <span class="skill-badge"><i class="devicon-git-plain colored"></i> Git</span>
-                  <span class="skill-badge"><i class="devicon-github-original"></i> GitHub</span>
-                  <span class="skill-badge"><i class="devicon-vite-original colored"></i> Vite.js</span>
-                  <span class="skill-badge"><i class="fas fa-flask"></i> Postman</span>
-                </p>
-                <!-- Add any other DevOps tools or technologies you use -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- 4) Projects -->
-      <section class="resume-section" id="projects">
-        <div class="resume-section-content">
-          <h2 class="mb-5 text-uppercase fw-bold">Projects</h2>
-
-          <!-- Project Card 1: N.E.S.T -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a
-                  href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
-                  target="_blank"
-                >
-                  N.E.S.T: AI-Driven Clinical Trials Recommender System
-                </a>
-              </h3>
-              <p>
-                <strong>Innovative Pipeline:</strong> Engineered a scalable AI solution to
-                semantically group and retrieve clinical trial data from 450k records (495MB
-                of textual bio-medical data) by merging multi-source inputs and extracting
-                structured relationships using Gemma2.
-              </p>
-              <p>
-                <strong>Optimized Data Processing:</strong> Leveraged Stella 1.5B embeddings
-                with FAISS (0.8 threshold, avg. cosine similarity 0.857) to perform advanced
-                node deduplication, forming a dynamic Neo4j knowledge graph.
-              </p>
-              <p>
-                <strong>Graph-Based Recommendations:</strong> Developed a state-of-the-art
-                recommendation engine using Neo4j GDS (Jaccard similarity) to deliver
-                top-10 trial recommendations, ensuring cost efficiency, clinical relevance,
-                and explainability.
-              </p>
-              <p><strong>Tech Stack:</strong> Python | Gemma2 | Stella | FAISS | Neo4j GDS</p>
-              <p>
-                <strong>GitHub:</strong>
-                <a
-                  href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
-                  target="_blank"
-                  >Repo Link</a
-                >
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/nest.jpg"
-                alt="N.E.S.T Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-
-          <!-- Project Card 2: CiboGenie -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank">
-                  CiboGenie: AI-Powered Food Analysis
-                </a>
-              </h3>
-              <p>
-                <strong>Data Extraction &amp; Synthesis:</strong> Engineered an AI-driven
-                platform that extracts and synthesizes multi-source data (PDFs, Wikipedia,
-                Google) to analyze food ingredients, define safe consumption guidelines, and
-                recommend healthier substitutes.
-              </p>
-              <p>
-                <strong>Geolocation &amp; Mapping:</strong> Integrated geolocation-based store
-                recommendations with interactive mapping using Google Maps API and Folium for
-                enhanced user experience.
-              </p>
-              <p>
-                <strong>Enhanced Semantic Search:</strong> Leveraged FAISS and
-                SentenceTransformers to boost semantic search accuracy and deliver precise
-                insights.
-              </p>
-              <p>
-                <strong>Tech Stack:</strong> TensorFlow | Streamlit | GroqAPI | Google Maps API
-                | FAISS | SentenceTransformers
-              </p>
-              <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank"
-                  >Repo Link</a
-                >
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/cibogenie.jpg"
-                alt="CiboGenie Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-
-          <!-- Project Card 3: InkSpire -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a href="https://github.com/ranjeetkulkarni/InkSpire" target="_blank">
-                  InkSpire: Real-Time Sketch Colorization
-                </a>
-              </h3>
-              <p>
-                <strong>Interactive Web Application:</strong> Developed a user-friendly web app
-                that converts sketches to colorized images in real-time using generative
-                adversarial networks (GANs).
-              </p>
-              <p>
-                <strong>Custom GAN Model:</strong> Trained a bespoke GAN on an anime dataset to
-                achieve high-quality colorization with reduced latency.
-              </p>
-              <p>
-                <strong>Seamless User Experience:</strong> Delivered an interactive, responsive
-                interface ensuring an engaging and intuitive user experience.
-              </p>
-              <p><strong>Tech Stack:</strong> GANs | Flask | HTML5 | CSS3 | JavaScript</p>
-              <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/ranjeetkulkarni/InkSpire" target="_blank"
-                  >Repo Link</a
-                >
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/inkspire.jpg"
-                alt="InkSpire Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-
-          <!-- Project Card 4: HR Attrition Prediction -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">
-                  HR Attrition Prediction
-                </a>
-              </h3>
-              <p>
-                <strong>Predictive Analytics:</strong> Developed a supervised machine learning
-                model to forecast employee attrition by analyzing demographics, job
-                satisfaction, work-life balance, and performance metrics.
-              </p>
-              <p>
-                <strong>Data Visualization:</strong> Utilized matplotlib and seaborn to
-                visualize data insights and model predictions, providing actionable
-                intelligence.
-              </p>
-              <p>
-                <strong>Robust Model Development:</strong> Built and trained the model using
-                TensorFlow to support effective retention strategies.
-              </p>
-              <p><strong>Tech Stack:</strong> TensorFlow | matplotlib | seaborn | Python</p>
-              <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/hrattrition.jpg"
-                alt="HR Attrition Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-
-          <!-- Project Card 5: Campus Ease -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">
-                  Campus Ease
-                </a>
-              </h3>
-              <p>
-                <strong>Comprehensive Campus Platform:</strong> Created a web-based platform to
-                streamline campus management, enhancing the student experience with secure
-                authentication, event organization, and resource allocation.
-              </p>
-              <p>
-                <strong>Real-Time Connectivity:</strong> Integrated real‑time notifications and
-                a robust feedback system to foster effective communication.
-              </p>
-              <p>
-                <strong>Dynamic Content Delivery:</strong> Leveraged the Gemini API for dynamic
-                content and utilized Postman for rigorous API testing, ensuring scalability
-                and reliability.
-              </p>
-              <p><strong>Tech Stack:</strong> Node.js | MongoDB | Gemini API | Postman</p>
-              <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/campusease.jpg"
-                alt="Campus Ease Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-
-          <!-- Project Card 6: Expense Ninja -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">
-                  Expense Ninja
-                </a>
-              </h3>
-              <p>
-                <strong>Conversational Finance Management:</strong> Developed an intelligent
-                WhatsApp chatbot to simplify financial management through natural language
-                interactions.
-              </p>
-              <p>
-                <strong>Advanced NLU:</strong> Built using the RASA framework for sophisticated
-                natural language understanding and integrated with the Twilio WhatsApp API for
-                seamless messaging.
-              </p>
-              <p>
-                <strong>Efficient Data Handling:</strong> Employed Hugging Face Transformers for
-                zero-shot classification and NER, with SQLite ensuring lightweight yet robust
-                data storage.
-              </p>
-              <p><strong>Tech Stack:</strong> RASA | Twilio WhatsApp API | Hugging Face Transformers | SQLite</p>
-              <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/expenseninja.jpg"
-                alt="Expense Ninja Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-
-          <!-- Project Card 7: 9 Box Puzzle Game -->
-          <div class="project-card">
-            <div class="project-info">
-              <h3 class="project-title">
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">
-                  9 Box Puzzle Game
-                </a>
-              </h3>
-              <p>
-                <strong>Interactive Puzzle Experience:</strong> Developed a Java-based puzzle
-                game featuring a sleek, intuitive UI with a 1-Click Solution feature for
-                instant puzzle solving.
-              </p>
-              <p>
-                <strong>Robust Desktop Application:</strong> Built using Java Swing to deliver a
-                dependable and interactive desktop experience.
-              </p>
-              <p>
-                <strong>Engaging Gameplay:</strong> Focused on providing a smooth and enjoyable
-                user experience for puzzle enthusiasts.
-              </p>
-              <p><strong>Tech Stack:</strong> Java | Java Swing</p>
-              <p>
-                <strong>GitHub:</strong>
-                <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
-              </p>
-            </div>
-            <div class="project-image-wrapper">
-              <img
-                src="assets/img/projects/9box.jpg"
-                alt="9 Box Puzzle Game Project Image"
-                class="project-image"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- 5) Leadership -->
-      <section class="resume-section" id="leadership">
-        <div class="resume-section-content">
-          <h2 class="mb-5">Leadership &amp; Involvement</h2>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <!-- Left Column (approx. 45% width) for Information -->
-            <div class="flex-grow-1" style="flex: 0 0 45%;">
-              <h3 class="mb-0">Google Developer Group, IIITA</h3>
-              <div class="subheading mb-3">Position of Responsibility</div>
-              <ul>
-                <li>
-                  Orchestrated immersive AI/ML workshops, empowering 50+ students with hands-on
-                  experience in advanced technologies.
-                </li>
-                <li>
-                  Directed high-impact Google Solutions Challenge projects, delivering
-                  innovative AI solutions for real-world challenges.
-                </li>
-                <li>
-                  Co-Engineered Adermis – an AI-driven skin disease severity predictor:
-                  <ul>
-                    <li>Developed robust ML models for PCOS risk assessment and pregnancy health prediction.</li>
-                    <li>Integrated Google Maps API for real-time doctor/pharmacy recommendations.</li>
-                    <li>Architected a scalable AI pipeline leveraging Gemini API, RAG, FAISS, and Computer Vision with a responsive Next.js/Tailwind CSS frontend.</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <!-- Right Column (approx. 55% width) for Carousel with added margin -->
-            <div class="flex-shrink-0 ms-4" style="flex: 0 0 55%;">
-              <!-- Timeline Caption (visible on medium screens and up) -->
-              <span class="text-primary d-none d-md-block mb-2">Oct 2024 – Present</span>
-              <div
-                id="gdscCarousel"
-                class="carousel slide"
-                data-bs-ride="carousel"
-                data-bs-interval="3000"
-              >
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="assets/img/gdsc/gdsc1.jpg"
-                      class="d-block w-100"
-                      alt="GDSC Event 1"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/img/gdsc/gdsc2.jpg"
-                      class="d-block w-100"
-                      alt="GDSC Event 2"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/img/gdsc/gdsc3.jpg"
-                      class="d-block w-100"
-                      alt="GDSC Event 3"
-                    />
-                  </div>
-                  <!-- Add more slides as needed -->
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#gdscCarousel"
-                  data-bs-slide="prev"
-                >
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#gdscCarousel"
-                  data-bs-slide="next"
-                >
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- 6) Achievements -->
-      <section class="resume-section" id="achievements">
-        <div class="resume-section-content achievements-container">
-          <h2 class="mb-5 display-4 text-uppercase fw-bold">Achievements</h2>
-          <div class="achievement-grid">
-            <!-- Academic Excellence -->
-            <div class="achievement-card">
-              <div class="achievement-icon">
-                <i class="fas fa-trophy text-warning"></i>
-              </div>
-              <h5 class="achievement-title">Academic Excellence</h5>
-              <p class="achievement-text">
-                Top ranks in JEE Main 2023 (AIR 3660), JEE Advanced 2023 (AIR 6461) and NTSE
-                Scholarship Rank 126.
-              </p>
-            </div>
-            <!-- Competitive Programming (CodeChef & Codeforces) -->
-            <div class="achievement-card">
-              <div class="achievement-icon">
-                <i class="fas fa-code"></i>
-              </div>
-              <h5 class="achievement-title">Competitive Programming</h5>
-              <p class="achievement-text">
-                CodeChef 3-Star (#544, #259, #459) and Codeforces Pupil (Max Rank #2860 in Div
-                1+2).
-              </p>
-            </div>
-            <!-- Data Structures & Algorithms (LeetCode) -->
-            <div class="achievement-card">
-              <div class="achievement-icon">
-                <i class="fas fa-terminal"></i>
-              </div>
-              <h5 class="achievement-title">DS &amp; Algorithms</h5>
-              <p class="achievement-text">
-                LeetCode Rating 1771 (Biweekly Contest 429, Rank 2609) demonstrating strong
-                problem-solving skills.
-              </p>
-            </div>
-            <!-- NEST Hackathon -->
-            <div class="achievement-card">
-              <div class="achievement-icon">
-                <i class="fas fa-medal"></i>
-              </div>
-              <h5 class="achievement-title">NEST Hackathon</h5>
-              <p class="achievement-text">
-                Semi-Finalist in Novartis NEST Hackathon – Selected among Top 42 National Teams
-                from over 32k participants.
-              </p>
-            </div>
-            <!-- Open Source Contribution -->
-            <div class="achievement-card">
-              <div class="achievement-icon">
-                <i class="fas fa-code-branch"></i>
-              </div>
-              <h5 class="achievement-title">Open Source Contribution</h5>
-              <p class="achievement-text">
-                Actively contributed to Opencode24, the college’s flagship open-source event,
-                driving community-led projects.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- 7) Certifications -->
-     <!-- Certifications Section (Netflix Movie Card Style) -->
-     <section class="resume-section" id="certifications">
-      <div class="resume-section-content">
-        <h2 class="mb-5 text-uppercase fw-bold">Certifications</h2>
-        
-        <div class="certification-carousel">
-          
-          <!-- Certification Card 1: AI & ML -->
-          <div class="certification-card">
-            <img src="assets/img/certifications/ai_ml.jpg" 
-                 alt="AI & ML Certification" 
-                 class="certification-image">
-            <div class="certification-info">
-              <h3 class="certification-title">Artificial Intelligence and Machine Learning</h3>
-              <p class="certification-desc">
-                Earned from EICT IIT Kanpur. Advanced training in AI/ML concepts and applications.
-              </p>
-              <a href="LINK" target="_blank" class="btn certification-link">View Certification</a>
-            </div>
-          </div>
-          
-          <!-- Certification Card 2: Project Completion -->
-          <div class="certification-card">
-            <img src="assets/img/certifications/project_completion.jpg" 
-                 alt="Project Completion Certification" 
-                 class="certification-image">
-            <div class="certification-info">
-              <h3 class="certification-title">Project Completion Certificate</h3>
-              <p class="certification-desc">
-                Awarded by EICT IIT Kanpur for successful completion of a key project 
-                demonstrating technical expertise.
-              </p>
-              <a href="LINK" target="_blank" class="btn certification-link">View Certification</a>
-            </div>
-          </div>
-    
-          <!-- Certification Card 3: OpenCode 24 IIITA Open Source Event -->
-          <div class="certification-card">
-            <img src="assets/img/certifications/opencode24.jpg" 
-                 alt="OpenCode 24 IIITA Open Source Event" 
-                 class="certification-image">
-            <div class="certification-info">
-              <h3 class="certification-title">OpenCode 24 IIITA Opensource Event</h3>
-              <p class="certification-desc">
-                Recognized for contributions during IIIT Allahabad's annual open-source event, 
-                demonstrating collaborative development and community engagement.
-              </p>
-              <a href="LINK" target="_blank" class="btn certification-link">View Certification</a>
-            </div>
-          </div>
-          
+        <div class="social-icons">
+          <!-- GitHub -->
+          <a class="social-icon" href="https://github.com/ranjeetkulkarni" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <!-- LinkedIn -->
+          <a class="social-icon" href="https://linkedin.com/in/ranjeet-kulkarni-b2361627a/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <!-- CodeChef -->
+          <a class="social-icon" href="https://www.codechef.com/users/ranjeetk_25" target="_blank">
+            <img src="assets/img/codechef.jpeg" alt="CodeChef">
+          </a>
+          <!-- Codeforces -->
+          <a class="social-icon" href="https://codeforces.com/profile/the__mentalist" target="_blank">
+            <img src="assets/img/codeforces.png" alt="Codeforces">
+          </a>
         </div>
       </div>
-    </section>
-    
-  
-
     </div>
-    <!-- Bootstrap core JS-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    ></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+  </div>
+</section>
+<hr class="m-0" />
+
+
+  <!-- 2) Education -->
+  <section class="resume-section" id="education">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Education</h2>
+      <div class="education-row">
+        <!-- 1st Education Card -->
+        <div class="education-card mb-5">
+          <div class="row align-items-center">
+            <!-- Left Column: Content (50%) -->
+            <div class="col-md-6">
+              <h3 class="mb-0">IIIT Allahabad</h3>
+              <div class="subheading mb-3">B.Tech. in Information Technology</div>
+              <div>Prayagraj, UP</div>
+              <p><strong>CGPA:</strong> 8.66 (till 4th Sem)</p>
+              <p>
+                <p>
+                  Key Coursework: Data Structures and Algorithms, Object-Oriented Programming, Software Engineering, 
+                  Operating Systems, Computer Organization and Architecture, Database Management Systems (DBMS), 
+                  Computer Networks, Probability and Statistics, Linear Algebra, and Discrete Mathematics.
+                </p>
+                
+              </p>
+              <span class="text-primary">2023 - Present</span>
+            </div>
+            <!-- Right Column: Image (50%) -->
+            <div class="col-md-6 text-end">
+              <img src="assets/img/institute1.jpeg" alt="IIIT Allahabad Logo" class="institution-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd Education Card -->
+        <div class="education-card mb-5">
+          <div class="row align-items-center">
+            <!-- Left Column: Content (50%) -->
+            <div class="col-md-6">
+              <h3 class="mb-0">Jnana Prabodhini Prashala</h3>
+              <div class="subheading mb-3">Secondary Education, CBSE</div>
+              <p>
+                Achieved <strong>99.20%</strong> (CGPA: 10). Focused on foundational science and mathematics with a strong emphasis on problem-solving.
+              </p>
+              <span class="text-primary">Year of Passing: 2021</span>
+            </div>
+            <!-- Right Column: Image (50%) -->
+            <div class="col-md-6 text-end">
+              <img src="assets/img/institute2.jpeg" alt="Jnana Prabodhini Logo" class="institution-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+
+  <section class="resume-section" id="skills">
+    <div class="resume-section-content skill-container">
+      <h2 class="mb-5 display-4 text-uppercase fw-bold">Technical Skills</h2>
+      <div class="row">
+        <!-- Left Column: Tabs -->
+        <div class="col-lg-3 col-md-4 skill-tab-column">
+          <div class="skill-tabs flex-column">
+            <!-- Tab 1: AI/ML & Data Science -->
+            <button class="skill-tab active" data-target="tab-aiml">
+              AI/ML &amp; Data Science
+            </button>
+            <!-- Tab 2: Web Development -->
+            <button class="skill-tab" data-target="tab-web">
+              Web Development
+            </button>
+            <!-- Tab 3: Programming & CS Fundamentals -->
+            <button class="skill-tab" data-target="tab-programming">
+              Programming &amp; CS Fundamentals
+            </button>
+            <!-- Tab 4: Tools & DevOps -->
+            <button class="skill-tab" data-target="tab-tools">
+              Tools &amp; DevOps
+            </button>
+          </div>
+        </div>
+  
+        <!-- Right Column: Tab Contents -->
+        <div class="col-lg-9 col-md-8 skill-content-column">
+  
+       <!-- TAB 1: AI/ML & Data Science -->
+<div id="tab-aiml" class="skill-content active">
+  <h4 class="mb-3 skill-heading">
+    <span class="skill-icon">
+      <i class="fas fa-brain"></i>
+    </span>
+    AI/ML & Data Science
+  </h4>
+  
+  <!-- Core Concepts with Icons -->
+  <p>
+    <strong>Core Concepts:</strong>
+  </p>
+  <p>
+    <span class="skill-badge">
+      <i class="fas fa-brain"></i> Supervised/Unsupervised Learning
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-language"></i> NLP
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-project-diagram"></i> Neural Networks
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-eye"></i> Computer Vision
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-clone"></i> GANs
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-robot"></i> Generative AI
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-comments"></i> LLMs
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-sitemap"></i> Knowledge Graphs
+    </span>
+    <span class="skill-badge">
+      <i class="fas fa-comment-dots"></i> Natural Language Processing
+    </span>
+  </p>
+
+  <!-- Frameworks & Tools -->
+  <p>
+    <strong>Frameworks &amp; Tools:</strong>
+    <span class="skill-badge"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
+    <span class="skill-badge"><i class="devicon-pytorch-original colored"></i> PyTorch</span>
+    <span class="skill-badge"><i class="devicon-flask-original colored"></i> Flask</span>
+    <span class="skill-badge"><i class="devicon-neo4j-plain colored"></i> Neo4j</span>
+    <span class="skill-badge"><i class="fas fa-search"></i> FAISS</span>
+    <span class="skill-badge"><i class="fas fa-comment"></i> RASA</span>
+    <span class="skill-badge"><i class="fas fa-mobile-alt"></i> Twilio WhatsApp API</span>
+    <span class="skill-badge"><i class="devicon-sklearn-plain colored"></i> Scikit-Learn</span>
+    <span class="skill-badge"><i class="devicon-opencv-plain colored"></i> OpenCV</span>
+  </p>
+
+  <!-- Data Libraries & Visualization -->
+  <p>
+    <strong>Data Libraries &amp; Visualization:</strong>
+    <span class="skill-badge"><i class="fab fa-python"></i> Pandas</span>
+    <span class="skill-badge"><i class="fab fa-python"></i> NumPy</span>
+    <span class="skill-badge"><i class="fas fa-chart-line"></i> Matplotlib</span>
+    <span class="skill-badge"><i class="fas fa-chart-area"></i> Seaborn</span>
+    <span class="skill-badge"><i class="fas fa-flask"></i> Jupyter Notebook</span>
+  </p>
+</div>
+
+  
+          <!-- TAB 2: Web Development -->
+          <div id="tab-web" class="skill-content">
+            <h4 class="mb-3 skill-heading">
+              <span class="skill-icon">
+                <i class="fas fa-laptop-code"></i>
+              </span>
+              Web Development
+            </h4>
+            <p>
+              <strong>Frontend:</strong>
+              <span class="skill-badge"><i class="devicon-react-original colored"></i> React.js</span>
+              <span class="skill-badge"><i class="devicon-nextjs-original colored"></i> Next.js</span>
+              <span class="skill-badge"><i class="devicon-html5-plain colored"></i> HTML5/CSS3</span>
+              <!-- <span class="skill-badge"><i class="devicon-sass-original colored"></i> Sass/SCSS</span>
+              <span class="skill-badge"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</span> -->
+              <!-- <span class="skill-badge"><i class="devicon-typescript-plain colored"></i> TypeScript</span> -->
+            </p>
+            <p>
+              <strong>Backend:</strong>
+              <span class="skill-badge"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
+              <span class="skill-badge"><i class="devicon-express-original colored"></i> Express.js</span>
+              <span class="skill-badge"><i class="devicon-flask-original colored"></i> Flask</span>
+              <span class="skill-badge">REST APIs</span>
+              <!-- <span class="skill-badge"><i class="devicon-graphql-plain colored"></i> GraphQL</span>
+              <span class="skill-badge"><i class="devicon-django-plain colored"></i> Django</span> -->
+            </p>
+            <!-- <p>
+              <strong>Additional Tools:</strong>
+              <span class="skill-badge"><i class="devicon-redux-original colored"></i> Redux</span>
+              <span class="skill-badge"><i class="devicon-firebase-plain colored"></i> Firebase</span>
+            </p> -->
+          </div>
+  
+          <!-- TAB 3: Programming & CS Fundamentals -->
+          <div id="tab-programming" class="skill-content">
+            <h4 class="mb-3 skill-heading">
+              <span class="skill-icon">
+                <i class="fas fa-cogs"></i>
+              </span>
+              Programming &amp; CS Fundamentals
+            </h4>
+            <p>
+              <strong>Languages:</strong>
+              <span class="skill-badge"><i class="devicon-java-plain colored"></i> Java</span>
+              <span class="skill-badge"><i class="devicon-cplusplus-plain colored"></i> C++</span>
+              <span class="skill-badge"><i class="devicon-python-plain colored"></i> Python</span>
+              <span class="skill-badge"><i class="devicon-javascript-plain colored"></i> JavaScript (ES6+)</span>
+              <span class="skill-badge"><i class="devicon-sqlite-plain colored"></i> SQL</span>
+              <!-- <span class="skill-badge"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+              <span class="skill-badge"><i class="devicon-bash-plain colored"></i> Bash</span> -->
+            </p>
+            <p>
+              <strong>Concepts:</strong>
+              <span class="skill-badge"><i class="fas fa-code"></i> DSA</span>
+              <span class="skill-badge"><i class="fas fa-trophy"></i> Competitive Programming</span>
+              <span class="skill-badge"><i class="fas fa-project-diagram"></i> Object-Oriented Design</span>
+              <span class="skill-badge"><i class="fas fa-layer-group"></i> Design Patterns</span>
+            </p>
+          </div>
+  
+          <!-- TAB 4: Tools & DevOps -->
+          <div id="tab-tools" class="skill-content">
+            <h4 class="mb-3 skill-heading">
+              <span class="skill-icon">
+                <i class="fas fa-tools"></i>
+              </span>
+              Tools &amp; DevOps
+            </h4>
+            <p>
+              <strong>Version Control &amp; Build Tools:</strong>
+              <span class="skill-badge"><i class="devicon-git-plain colored"></i> Git</span>
+              <span class="skill-badge"><i class="devicon-github-original colored"></i> GitHub</span>
+              <span class="skill-badge"><i class="devicon-vite-original colored"></i> Vite.js</span>
+              <!-- <span class="skill-badge"><i class="devicon-webpack-plain colored"></i> Webpack</span> -->
+              <span class="skill-badge"><i class="devicon-postman-plain colored"></i> Postman</span>
+            </p>
+            <p>
+              <strong>Containerization &amp; CI/CD:</strong>
+              <span class="skill-badge"><i class="devicon-docker-plain colored"></i> Docker</span>
+              <!-- <span class="skill-badge"><i class="devicon-kubernetes-plain colored"></i> Kubernetes</span>
+              <span class="skill-badge"><i class="devicon-jenkins-plain colored"></i> Jenkins</span>
+              <span class="skill-badge"><i class="devicon-travis-plain colored"></i> Travis CI</span> -->
+            </p>
+            <!-- <p>
+              <strong>Cloud Platforms:</strong>
+              <span class="skill-badge"><i class="devicon-amazonwebservices-original colored"></i> AWS</span>
+              <span class="skill-badge"><i class="devicon-microsoft-azure-plain colored"></i> Azure</span>
+              <span class="skill-badge"><i class="devicon-googlecloud-plain colored"></i> GCP</span>
+            </p> -->
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+  
+ <!-- 4) Projects -->
+<section class="resume-section" id="projects">
+  <div class="resume-section-content">
+    <h2 class="mb-5 text-uppercase fw-bold">Projects</h2>
+
+    <!-- Project Card 1: N.E.S.T (Vertical Image) -->
+    <!-- Project Card 1: N.E.S.T (Vertical Images) -->
+<div class="row project-card mb-4 align-items-center">
+  <div class="col-md-6">
+    <h3 class="project-title">
+      <a
+        href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
+        target="_blank"
+      >
+        N.E.S.T: AI-Knowledge Graph Driven Clinical Trials Recommender System
+      </a>
+    </h3>
+    <p>
+      <strong>Innovative Pipeline:</strong> Engineered a scalable AI solution to
+      semantically group and retrieve clinical trial data from 450k records (495MB
+      of textual bio-medical data) by merging multi-source inputs and extracting
+      structured relationships using Gemma2.
+    </p>
+    <p>
+      <strong>Optimized Data Processing:</strong> Leveraged Stella 1.5B embeddings
+      with FAISS (0.8 threshold, avg. cosine similarity 0.857) to perform advanced
+      node deduplication, forming a dynamic Neo4j knowledge graph.
+    </p>
+    <p>
+      <strong>Graph-Based Recommendations:</strong> Developed a state-of-the-art
+      recommendation engine using Neo4j GDS (Jaccard similarity) to deliver
+      top-10 trial recommendations, ensuring cost efficiency, clinical relevance,
+      and explainability.
+    </p>
+    <p><strong>Tech Stack:</strong> Python | Gemma2 | Stella | FAISS | Neo4j GDS</p>
+    <p>
+      <strong>GitHub:</strong>
+      <a
+        href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
+        target="_blank"
+        >Repo Link</a
+      >
+    </p>
+  </div>
+  <div class="col-md-6 text-center d-flex flex-column align-items-center">
+    <img
+      src="assets/img/projects/nest.jpeg"
+      alt="N.E.S.T Project Image 1"
+      class="img-fluid vertical-image mb-3"
+    />
+    <img
+      src="assets/img/projects/nest2.jpg"
+      alt="N.E.S.T Project Image 2"
+      class="img-fluid vertical-image"
+    />
+  </div>
+</div>
+
+
+    <!-- Project Card 2: CiboGenie (Wide Image) -->
+    <div class="row project-card mb-4 align-items-center">
+      <div class="col-md-6">
+        <h3 class="project-title">
+          <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank">
+            CiboGenie: AI-Powered Food Analysis
+          </a>
+        </h3>
+        <p>
+          <strong>Data Extraction &amp; Synthesis:</strong> Engineered an AI-driven
+          platform that extracts and synthesizes multi-source data (PDFs, Wikipedia,
+          Google) to analyze food ingredients, define safe consumption guidelines, and
+          recommend healthier substitutes.
+        </p>
+        <p>
+          <strong>Geolocation &amp; Mapping:</strong> Integrated geolocation-based store
+          recommendations with interactive mapping using Google Maps API and Folium for
+          enhanced user experience.
+        </p>
+        <p>
+          <strong>Enhanced Semantic Search:</strong> Leveraged FAISS and
+          SentenceTransformers to boost semantic search accuracy and deliver precise
+          insights.
+        </p>
+        <p>
+          <strong>Tech Stack:</strong> TensorFlow | Streamlit | GroqAPI | Google Maps API
+          | FAISS | SentenceTransformers
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank"
+            >Repo Link</a
+          >
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img
+          src="assets/img/projects/cibogenie.jpeg"
+          alt="CiboGenie Project Image"
+          class="img-fluid wide-image"
+        />
+      </div>
+    </div>
+
+    <!-- Project Card 3: InkSpire (Wide Image) -->
+<div class="row project-card mb-4 align-items-center">
+  <div class="col-md-6">
+    <h3 class="project-title">
+      <a href="https://github.com/ranjeetkulkarni/InkSpire" target="_blank">
+        InkSpire: Real-Time Sketch Colorization
+      </a>
+    </h3>
+    <p>
+      <strong>Interactive Web Application:</strong> Developed a user-friendly web app
+      that converts sketches to colorized images in real-time using generative
+      adversarial networks (GANs).
+    </p>
+    <p>
+      <strong>Custom GAN Model:</strong> Trained a bespoke GAN on an anime dataset to
+      achieve high-quality colorization with reduced latency.
+    </p>
+    <p>
+      <strong>Seamless User Experience:</strong> Delivered an interactive, responsive
+      interface ensuring an engaging and intuitive user experience.
+    </p>
+    <p><strong>Tech Stack:</strong> GANs | Flask | HTML5 | CSS3 | JavaScript</p>
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/ranjeetkulkarni/InkSpire" target="_blank">
+        Repo Link
+      </a>
+    </p>
+    <!-- NEW: Deployed Demo on Hugging Face -->
+    <p>
+      <strong>Live Demo:</strong>
+      <a href="https://huggingface.co/spaces/samratray/Inkspire" target="_blank">
+        Try InkSpire on Hugging Face
+      </a>
+    </p>
+  </div>
+  <div class="col-md-6 text-center">
+    <img
+      src="assets/img/projects/inkspire.png"
+      alt="InkSpire Project Image"
+      class="img-fluid wide-image"
+    />
+  </div>
+</div>
+
+
+    <!-- Project Card 4: Expense Ninja (Vertical Image) -->
+    <div class="row project-card mb-4 align-items-center">
+      <div class="col-md-6">
+        <h3 class="project-title">
+          <a href="https://github.com/ranjeetkulkarni" target="_blank">
+            Expense Ninja
+          </a>
+        </h3>
+        <p>
+          <strong>Conversational Finance Management:</strong> Developed an intelligent
+          WhatsApp chatbot to simplify financial management through natural language
+          interactions.
+        </p>
+        <p>
+          <strong>Advanced NLU:</strong> Built using the RASA framework for sophisticated
+          natural language understanding and integrated with the Twilio WhatsApp API for
+          seamless messaging.
+        </p>
+        <p>
+          <strong>Efficient Data Handling:</strong> Employed Hugging Face Transformers for
+          zero-shot classification and NER, with SQLite ensuring lightweight yet robust
+          data storage.
+        </p>
+        <p>
+          <strong>Tech Stack:</strong> RASA | Twilio WhatsApp API | Hugging Face Transformers | SQLite
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img
+          src="assets/img/projects/expenseninja.jpeg"
+          alt="Expense Ninja Project Image"
+          class="img-fluid vertical-image"
+        />
+      </div>
+    </div>
+
+    <!-- Project Card 5: MyPortfolio (Wide Image) -->
+    <div class="row project-card mb-4 align-items-center">
+      <div class="col-md-6">
+        <h3 class="project-title">
+          <a href="https://github.com/ranjeetkulkarni/MyPortfolio" target="_blank">
+            MyPortfolio: Personal Portfolio Website
+          </a>
+        </h3>
+        <p>
+          <strong>Responsive Design:</strong> Built a modern, mobile-friendly personal 
+          portfolio website showcasing projects, skills, and experience.
+        </p>
+        <p>
+          <strong>Interactive UI:</strong> Utilized HTML5, CSS3, and JavaScript for 
+          smooth animations and an intuitive user experience.
+        </p>
+        <p>
+          <strong>Scalable Architecture:</strong> Integrated best practices for 
+          performance optimization and SEO, ensuring fast load times and discoverability.
+        </p>
+        <p><strong>Tech Stack:</strong> HTML5 | CSS3 | JavaScript | Bootstrap</p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/ranjeetkulkarni/MyPortfolio" target="_blank">
+            Repo Link
+          </a>
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img
+          src="assets/img/projects/myportfolio.jpeg"
+          alt="MyPortfolio Project Image"
+          class="img-fluid wide-image"
+        />
+      </div>
+    </div>
+
+   <!-- Project Card 6: Campus Ease (Wide Images) -->
+<<!-- Project Card 6: Campus Ease (Wide Images) -->
+<div class="row project-card mb-4 align-items-center">
+  <div class="col-md-6">
+    <h3 class="project-title">
+      <a href="https://github.com/ranjeetkulkarni" target="_blank">
+        Campus Ease
+      </a>
+    </h3>
+    <p>
+      <strong>The Ultimate Student Hub:</strong> Campus Ease is a centralized platform designed to simplify college life. It provides direct access to essential study resources like DSA sheets, competitive programming problems from Codeforces, LeetCode, and CodeChef, along with an integrated contest calendar—ensuring students never miss an opportunity to upskill.
+    </p>
+    <p>
+      <strong>Smart Student Tools:</strong> Managing expenses is effortless with the built-in expense tracker that helps students calculate and remember their daily spending. The AI-powered audio summarizer converts lengthy PDFs and voice notes into concise, easy-to-digest summaries—perfect for quick revisions.
+    </p>
+    <p>
+      <strong>Tech Stack:</strong> Node.js | MongoDB | JavaScript | HTML | CSS | Flask | Jupyter Notebook
+    </p>
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
+    </p>
+  </div>
+  <div class="col-md-6 text-center d-flex flex-column align-items-center">
+    <img
+      src="assets/img/projects/home.jpeg"
+      alt="Campus Ease Home Page"
+      class="img-fluid wide-image mb-3"
+    />
+    <img
+      src="assets/img/projects/summary.jpeg"
+      alt="Campus Ease Application Page"
+      class="img-fluid wide-image"
+    />
+  </div>
+</div>
+
+
+
+    <!-- Project Card 7: 9 Box Puzzle (Wide Image) -->
+    <div class="row project-card mb-4 align-items-center">
+      <div class="col-md-6">
+        <h3 class="project-title">
+          <a href="https://github.com/ranjeetkulkarni" target="_blank">
+            9 Box Puzzle Game
+          </a>
+        </h3>
+        <p>
+          <strong>Interactive Puzzle Experience:</strong> Developed a Java-based puzzle
+          game featuring a sleek, intuitive UI with a 1-Click Solution feature for
+          instant puzzle solving.
+        </p>
+        <p>
+          <strong>Robust Desktop Application:</strong> Built using Java Swing to deliver a
+          dependable and interactive desktop experience.
+        </p>
+        <p>
+          <strong>Engaging Gameplay:</strong> Focused on providing a smooth and enjoyable
+          user experience for puzzle enthusiasts.
+        </p>
+        <p><strong>Tech Stack:</strong> Java | Java Swing</p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img
+          src="assets/img/projects/9box.jpeg"
+          alt="9 Box Puzzle Game Project Image"
+          class="img-fluid wide-image"
+        />
+      </div>
+    </div>
+
+    <!-- Project Card 8: HR Attrition (No Image) -->
+    <div class="row project-card mb-4">
+      <div class="col-12">
+        <h3 class="project-title">
+          <a href="https://github.com/ranjeetkulkarni" target="_blank">
+            HR Attrition Prediction
+          </a>
+        </h3>
+        <p>
+          <strong>Predictive Analytics:</strong> Developed a supervised machine learning
+          model to forecast employee attrition by analyzing demographics, job
+          satisfaction, work-life balance, and performance metrics.
+        </p>
+        <p>
+          <strong>Data Visualization:</strong> Utilized matplotlib and seaborn to
+          visualize data insights and model predictions, providing actionable
+          intelligence.
+        </p>
+        <p>
+          <strong>Robust Model Development:</strong> Built and trained the model using
+          TensorFlow to support effective retention strategies.
+        </p>
+        <p><strong>Tech Stack:</strong> TensorFlow | matplotlib | seaborn | Python</p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/ranjeetkulkarni" target="_blank">Repo Link</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="m-0" />
+
+
+  <!-- 5) Leadership -->
+  <section class="resume-section" id="leadership">
+    <div class="resume-section-content">
+      <h2 class="mb-5">Leadership &amp; Involvement</h2>
+      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+        <!-- Left Column (approx. 45% width) for Information -->
+        <div class="flex-grow-1" style="flex: 0 0 45%;">
+          <h3 class="mb-0">Google Developer Group, IIITA</h3>
+          <div class="subheading mb-3">Position of Responsibility</div>
+          <ul>
+            <li>
+              Orchestrated immersive AI/ML workshops, empowering 50+ students with hands-on
+              experience in advanced technologies.
+            </li>
+            <li>
+              Directed high-impact Google Solutions Challenge projects, delivering
+              innovative AI solutions for real-world challenges.
+            </li>
+            <li>
+              Co-Engineered Adermis – an AI-driven skin disease severity predictor:
+              <ul>
+                <li>Developed robust ML models for PCOS risk assessment and pregnancy health prediction.</li>
+                <li>Integrated Google Maps API for real-time doctor/pharmacy recommendations.</li>
+                <li>Architected a scalable AI pipeline leveraging Gemini API, RAG, FAISS, and Computer Vision with a responsive Next.js/Tailwind CSS frontend.</li>
+              </ul>
+            </li>
+            <li>
+              Expanded expertise by mastering:
+              <ul>
+                <li>Supervised &amp; Unsupervised Machine Learning</li>
+                <li>Large Language Models</li>
+                <li>Natural Language Processing</li>
+                <li>Exploratory Data Analysis</li>
+                <li>Retrieval Augmented Generation (RAG)</li>
+                <li>Using API for open-source ML models</li>
+                <li>Knowledge Graphs with Neo4j</li>
+                <li>FAISS for fast retrieval</li>
+                <li>RASA framework for mini chatbots</li>
+                <li>Generative Adversarial Networks</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- Right Column (approx. 55% width) for Carousel with added margin -->
+        <div class="flex-shrink-0 ms-4" style="flex: 0 0 55%;">
+          <!-- Timeline Caption (visible on medium screens and up) -->
+          <span class="text-primary d-none d-md-block mb-2">Oct 2024 – Present</span>
+          <div
+            id="gdscCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="3000"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/img/gdsc1.jpg"
+                  class="d-block w-100"
+                  alt="GDSC Event 1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/gdsc2.jpg"
+                  class="d-block w-100"
+                  alt="GDSC Event 2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/gdsc3.jpg"
+                  class="d-block w-100"
+                  alt="GDSC Event 3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/img/gdsc4.jpg"
+                  class="d-block w-100"
+                  alt="GDSC Event 4"
+                />
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/img/gdsc5.jpg"
+                    class="d-block w-100"
+                    alt="GDSC Event 5"
+                  />
+                </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#gdscCarousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#gdscCarousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+
+  <!-- 6) Achievements -->
+  <section class="resume-section" id="achievements">
+    <div class="resume-section-content achievements-container">
+      <h2 class="mb-5 display-4 text-uppercase fw-bold">Achievements</h2>
+      <div class="achievement-grid">
+        <!-- Academic Excellence -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy text-warning"></i>
+          </div>
+          <h5 class="achievement-title">Academic Excellence</h5>
+          <p class="achievement-text">
+            Top ranks in JEE Main 2023 (AIR 3660), JEE Advanced 2023 (AIR 6461) and NTSE
+            Scholarship Rank 126.
+          </p>
+        </div>
+        <!-- Competitive Programming (CodeChef & Codeforces) -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h5 class="achievement-title">Competitive Programming</h5>
+          <p class="achievement-text">
+            CodeChef 3-Star (#544, #259, #459) and Codeforces Pupil (Max Rank #2860 in Div
+            1+2).
+          </p>
+        </div>
+        <!-- Data Structures & Algorithms (LeetCode) -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-terminal"></i>
+          </div>
+          <h5 class="achievement-title">DS &amp; Algorithms</h5>
+          <p class="achievement-text">
+            LeetCode Rating 1771 (Biweekly Contest 429, Rank 2609) demonstrating strong
+            problem-solving skills.
+          </p>
+        </div>
+        <!-- NEST Hackathon -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h5 class="achievement-title">NEST Hackathon</h5>
+          <p class="achievement-text">
+            Semi-Finalist in Novartis NEST Hackathon – Selected among Top 42 National Teams
+            from over 32k participants.
+          </p>
+        </div>
+        <!-- Open Source Contribution -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-code-branch"></i>
+          </div>
+          <h5 class="achievement-title">Open Source Contribution</h5>
+          <p class="achievement-text">
+            Actively contributed to Opencode24, the college’s flagship open-source event,
+            driving community-led projects.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="m-0" />
+
+  <!-- 7) Certifications -->
+  <section class="resume-section" id="certifications">
+    <div class="resume-section-content">
+      <h2 class="mb-5 text-uppercase fw-bold">Certifications</h2>
+      <div class="certification-carousel">
+        <!-- Certification Card 1: AI & ML -->
+        <div class="certification-card">
+          <img src="assets/img/certifications/ai_ml.jpeg" 
+               alt="AI & ML Certification" 
+               class="certification-image">
+          <div class="certification-info">
+            <h3 class="certification-title">Artificial Intelligence and Machine Learning</h3>
+            <p class="certification-desc">
+              Earned from EICT IIT Kanpur. Advanced training in AI/ML concepts and applications.
+            </p>
+            <a href="https://drive.google.com/file/d/1nGw6kCwRJHftU4-dx__vMags5Ojetz_U/view?usp=drive_link" target="_blank" class="btn certification-link">View Certification</a>
+          </div>
+        </div>
+        <!-- Certification Card 2: Project Completion -->
+        <div class="certification-card">
+          <img src="assets/img/certifications/project_completion.jpeg" 
+               alt="Project Completion Certification" 
+               class="certification-image">
+          <div class="certification-info">
+            <h3 class="certification-title">Project Completion Certificate</h3>
+            <p class="certification-desc">
+              Awarded by EICT IIT Kanpur for successful completion of a key project 
+              demonstrating technical expertise.
+            </p>
+            <a href="https://drive.google.com/file/d/1PmJWfdCizItdfWpq9_w_MmuhIrdjctjg/view?usp=drive_link" target="_blank" class="btn certification-link">View Certification</a>
+          </div>
+        </div>
+        <!-- Certification Card 3: OpenCode 24 IIITA Open Source Event -->
+        <div class="certification-card">
+          <img src="assets/img/certifications/opencode.jpeg" 
+               alt="OpenCode 24 IIITA Open Source Event" 
+               class="certification-image">
+          <div class="certification-info">
+            <h3 class="certification-title">OpenCode 24 IIITA Opensource Event</h3>
+            <p class="certification-desc">
+              Recognized for contributions during IIIT Allahabad's annual open-source event, 
+              demonstrating collaborative development and community engagement.
+            </p>
+            <a href="https://drive.google.com/file/d/1psD6Q1glmoUgaYT42bRWuV3UoRikdJ6k/view?usp=drive_link" target="_blank" class="btn certification-link">View Certification</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- New 8) Contact Me Section -->
+<!-- Contact Me Section -->
+<section class="resume-section" id="contact">
+  <div class="resume-section-content">
+    <h2 class="mb-5 text-uppercase fw-bold">Contact Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <!-- 'from_name' must match the variable used in your EmailJS template -->
+            <input type="text" class="form-control" id="name" name="from_name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <!-- 'reply_to' should match the variable in your EmailJS template -->
+            <input type="email" class="form-control" id="email" name="reply_to" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+          <div id="successMessage" class="alert alert-success mt-3 d-none" role="alert">
+            <i class="fas fa-check-circle"></i> Message sent successfully!
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="m-0" />
+</div>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!-- Include EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<!-- Contact form submission script with EmailJS functionality -->
+<script>
+  // Initialize EmailJS with your User ID (replace 'YOUR_USER_ID' with your actual EmailJS User ID)
+  emailjs.init("38YNIm28Emcy0nK6o");
+
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual EmailJS service and template IDs.
+    emailjs.sendForm('service_w4bd10i', 'template_dav5p6d', this)
+      .then(function(response) {
+        var successMessage = document.getElementById('successMessage');
+        successMessage.classList.remove('d-none');
+        setTimeout(function() {
+          successMessage.classList.add('d-none');
+        }, 3000);
+        document.getElementById('contactForm').reset();
+      }, function(error) {
+        console.log('FAILED...', error);
+        alert("Failed to send message. Please try again.");
+      });
+  });
+</script>
+
   </body>
 </html>
