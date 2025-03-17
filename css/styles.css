@@ -92,7 +92,14 @@
 }
 
 
-
+.project-achievement {
+  font-family: 'Roboto', sans-serif; /* Or choose another contrasting font */
+  font-size: 1.1rem;
+  color: #007bff; /* A blue color for emphasis; adjust as needed */
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
 /* Container for all social icons */
 .social-icons {
   display: flex;            /* or inline-flex, if you prefer them in a single line with surrounding text */
