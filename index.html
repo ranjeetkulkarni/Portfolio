@@ -414,105 +414,166 @@
 
     <!-- Project Card 1: N.E.S.T (Vertical Image) -->
     <!-- Project Card 1: N.E.S.T (Vertical Images) -->
+    <div class="row project-card mb-4 align-items-center">
+      <div class="col-md-6">
+        <h3 class="project-title">
+          <a
+            href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
+            target="_blank"
+          >
+            N.E.S.T: AI-Knowledge Graph Driven Clinical Trials Recommender System
+          </a>
+        </h3>
+        <p class="project-achievement">
+          All-India Semifinalist in Novartis NEST Hackathon 2024.
+        </p>
+        <p>
+          <strong>Innovative Pipeline:</strong> Engineered a scalable AI solution to
+          semantically group and retrieve clinical trial data from 450k records (495MB
+          of textual bio-medical data) by merging multi-source inputs and extracting
+          structured relationships using Gemma2.
+        </p>
+        <p>
+          <strong>Optimized Data Processing:</strong> Leveraged Stella 1.5B embeddings
+          with FAISS (0.8 threshold, avg. cosine similarity 0.857) to perform advanced
+          node deduplication, forming a dynamic Neo4j knowledge graph.
+        </p>
+        <p>
+          <strong>Graph-Based Recommendations:</strong> Developed a state-of-the-art
+          recommendation engine using Neo4j GDS (Jaccard similarity) to deliver
+          top-10 trial recommendations, ensuring cost efficiency, clinical relevance,
+          and explainability.
+        </p>
+        <p><strong>Tech Stack:</strong> Python | Gemma2 | Stella | FAISS | Neo4j GDS</p>
+        <p>
+          <strong>GitHub:</strong>
+          <a
+            href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
+            target="_blank"
+            >Repo Link</a
+          >
+        </p>
+        <p>
+          <strong>Knowledge Graph:</strong>
+          <a
+            href="https://ai-knowledge-graph-clinical-trial-rec-ranjeetkulkarnis-projects.vercel.app/"
+            target="_blank"
+            style="color: #007bff; text-decoration: underline; font-weight: bold;"
+            >View Knowledge Graph</a
+          >
+        </p>
+      </div>
+      <div class="col-md-6 text-center d-flex flex-column align-items-center">
+        <img
+          src="assets/img/projects/nest.jpeg"
+          alt="N.E.S.T Project Image 1"
+          class="img-fluid vertical-image mb-3"
+        />
+        <img
+          src="assets/img/projects/nest2.jpg"
+          alt="N.E.S.T Project Image 2"
+          class="img-fluid vertical-image"
+        />
+      </div>
+    </div>
+    
+
+
 <div class="row project-card mb-4 align-items-center">
+  <!-- Project Details (Left Side) -->
   <div class="col-md-6">
     <h3 class="project-title">
-      <a
-        href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
-        target="_blank"
-      >
-        N.E.S.T: AI-Knowledge Graph Driven Clinical Trials Recommender System
+      <a href="https://github.com/YourGitHubRepoLink" target="_blank">
+        Adermis AI: AI-Powered Skin Condition &amp; Women’s Health Solution
       </a>
     </h3>
     <p class="project-achievement">
-     All-India Semifinalist in Novartis NEST Hackathon 2024.
+      Team Alchemy : Google Solutions Challenge
     </p>
     <p>
-      <strong>Innovative Pipeline:</strong> Engineered a scalable AI solution to
-      semantically group and retrieve clinical trial data from 450k records (495MB
-      of textual bio-medical data) by merging multi-source inputs and extracting
-      structured relationships using Gemma2.
+      <strong>Comprehensive Web Application:</strong> Delivers instant skin assessments and dedicated women’s healthcare support.
     </p>
     <p>
-      <strong>Optimized Data Processing:</strong> Leveraged Stella 1.5B embeddings
-      with FAISS (0.8 threshold, avg. cosine similarity 0.857) to perform advanced
-      node deduplication, forming a dynamic Neo4j knowledge graph.
+      <strong>Solution Overview:</strong> Leverages advanced deep learning to analyze skin images and provide categorized remedies along with nearby clinic information.
     </p>
     <p>
-      <strong>Graph-Based Recommendations:</strong> Developed a state-of-the-art
-      recommendation engine using Neo4j GDS (Jaccard similarity) to deliver
-      top-10 trial recommendations, ensuring cost efficiency, clinical relevance,
-      and explainability.
+      <strong>Key Features:</strong> Image upload &amp; capture, disease severity detection, Ayurvedic remedies, hospital locator, women's health chatbot, and live doctor consults.
     </p>
-    <p><strong>Tech Stack:</strong> Python | Gemma2 | Stella | FAISS | Neo4j GDS</p>
+    <p>
+      <strong>Tech Stack:</strong> CNN | PyTorch | Flask | Tensorflow | FAISS | OpenCV | Gemini API | WebRTC | Node.js | Next.js | TypeScript | Google Maps API
+    </p>
     <p>
       <strong>GitHub:</strong>
-      <a
-        href="https://github.com/ranjeetkulkarni/AI-KnowledgeGraph-ClinicalTrialRecommender"
-        target="_blank"
-        >Repo Link</a
-      >
+      <a href="https://github.com/ranjeetkulkarni/Adermis" target="_blank">Repo Link</a>
+    </p>
+    <p>
+      <strong>Demo Video:</strong>
+      <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal">Watch Here</a>
+    </p>
+    <p>
+      <strong>MVP:</strong>
+      <a href="https://adermis-skin-disease-diagnosis-and-woman-healthcare.vercel.app/" target="_blank">Live Demo</a>
     </p>
   </div>
-  <div class="col-md-6 text-center d-flex flex-column align-items-center">
-    <img
-      src="assets/img/projects/nest.jpeg"
-      alt="N.E.S.T Project Image 1"
-      class="img-fluid vertical-image mb-3"
-    />
-    <img
-      src="assets/img/projects/nest2.jpg"
-      alt="N.E.S.T Project Image 2"
-      class="img-fluid vertical-image"
-    />
+
+  <!-- Image Carousel (Right Side) -->
+  <div class="col-md-6">
+    <div id="projectImageCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/projects/adermis1.jpg" class="d-block w-100" alt="Adermis AI Project Image 1">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/projects/adermis2.jpg" class="d-block w-100" alt="Adermis AI Project Image 2">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/projects/adermis3.jpg" class="d-block w-100" alt="Adermis AI Project Image 3">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/projects/adermis4.jpg" class="d-block w-100" alt="Adermis AI Project Image 4">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/projects/adermis5.jpg" class="d-block w-100" alt="Adermis AI Project Image 5">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/projects/adermis6.jpg" class="d-block w-100" alt="Adermis AI Project Image 6">
+        </div>
+      </div>
+
+      <!-- Carousel Controls (Prev / Next Buttons) -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#projectImageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#projectImageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Demo Video Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Adermis AI Demo Video</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/QFIwp3FHfEY" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 
-    <!-- Project Card 2: CiboGenie (Wide Image) -->
-    <div class="row project-card mb-4 align-items-center">
-      <div class="col-md-6">
-        <h3 class="project-title">
-          <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank">
-            CiboGenie: AI-Powered Food Analysis ChatBot
-          </a>
-        </h3>
-        <p>
-          <strong>Data Extraction &amp; Synthesis:</strong> Engineered an AI-driven
-          platform that extracts and synthesizes multi-source data (PDFs, Wikipedia,
-          Google) to analyze food ingredients, define safe consumption guidelines, and
-          recommend healthier substitutes.
-        </p>
-        <p>
-          <strong>Geolocation &amp; Mapping:</strong> Integrated geolocation-based store
-          recommendations with interactive mapping using Google Maps API and Folium for
-          enhanced user experience.
-        </p>
-        <p>
-          <strong>Enhanced Semantic Search:</strong> Leveraged FAISS and
-          SentenceTransformers to boost semantic search accuracy and deliver precise
-          insights.
-        </p>
-        <p>
-          <strong>Tech Stack:</strong> TensorFlow | Streamlit | GroqAPI | Google Maps API
-          | FAISS | SentenceTransformers
-        </p>
-        <p>
-          <strong>GitHub:</strong>
-          <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank"
-            >Repo Link</a
-          >
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        <img
-          src="assets/img/projects/cibogenie.jpeg"
-          alt="CiboGenie Project Image"
-          class="img-fluid wide-image"
-        />
-      </div>
-    </div>
 
+  
+  
     <!-- Project Card 3: InkSpire (Wide Image) -->
 <div class="row project-card mb-4 align-items-center">
   <div class="col-md-6">
@@ -631,6 +692,50 @@
         <img
           src="assets/img/projects/myportfolio.jpeg"
           alt="MyPortfolio Project Image"
+          class="img-fluid wide-image"
+        />
+      </div>
+    </div>
+
+    <!-- Project Card 2: CiboGenie (Wide Image) -->
+    <div class="row project-card mb-4 align-items-center">
+      <div class="col-md-6">
+        <h3 class="project-title">
+          <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank">
+            CiboGenie: AI-Powered Food Analysis ChatBot
+          </a>
+        </h3>
+        <p>
+          <strong>Data Extraction &amp; Synthesis:</strong> Engineered an AI-driven
+          platform that extracts and synthesizes multi-source data (PDFs, Wikipedia,
+          Google) to analyze food ingredients, define safe consumption guidelines, and
+          recommend healthier substitutes.
+        </p>
+        <p>
+          <strong>Geolocation &amp; Mapping:</strong> Integrated geolocation-based store
+          recommendations with interactive mapping using Google Maps API and Folium for
+          enhanced user experience.
+        </p>
+        <p>
+          <strong>Enhanced Semantic Search:</strong> Leveraged FAISS and
+          SentenceTransformers to boost semantic search accuracy and deliver precise
+          insights.
+        </p>
+        <p>
+          <strong>Tech Stack:</strong> TensorFlow | Streamlit | GroqAPI | Google Maps API
+          | FAISS | SentenceTransformers
+        </p>
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/ranjeetkulkarni/CiboGenie" target="_blank"
+            >Repo Link</a
+          >
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img
+          src="assets/img/projects/cibogenie.jpeg"
+          alt="CiboGenie Project Image"
           class="img-fluid wide-image"
         />
       </div>
@@ -1023,12 +1128,11 @@
 <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 <!-- Contact form submission script with EmailJS functionality -->
 <script>
-  // Initialize EmailJS with your User ID (replace 'YOUR_USER_ID' with your actual EmailJS User ID)
+  // ====== EmailJS Script ======
   emailjs.init("38YNIm28Emcy0nK6o");
 
   document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
-    // Replace 'YOUR_SERVICE_ID' and 'YOUR_TEMPLATE_ID' with your actual EmailJS service and template IDs.
     emailjs.sendForm('service_w4bd10i', 'template_dav5p6d', this)
       .then(function(response) {
         var successMessage = document.getElementById('successMessage');
@@ -1042,6 +1146,8 @@
         alert("Failed to send message. Please try again.");
       });
   });
+
+
 </script>
 
   </body>
